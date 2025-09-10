@@ -1,14 +1,21 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
+# Node
+node_modules/
+.npm/
+.pnpm-store/
+
+# Builds / caches
+.vercel/
+dist/
+build/
+.cache/
+coverage/
+
+# Editors/OS
+.DS_Store
 *.log
 *.log.*
-*.sig
+.env*
 
-pkg/
-src/
+# IDE
+.vscode/
+.idea/
