@@ -1,0 +1,16 @@
+{
+  "name": "aquapurify-hubeau-widget",
+  "version": "0.1.0",
+  "description": "Widget Hub'Eau pour Aqua Purify - interroge l'API Hub'Eau via un proxy et affiche les résultats de qualité d'eau.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
