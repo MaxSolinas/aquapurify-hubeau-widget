@@ -5,7 +5,9 @@
     "lib": ["ES2020"],
     "strict": true,
     "esModuleInterop": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["node"]
   },
-  "include": ["server/**/*", "widget/**/*"]
+  "include": ["server/**/*", "widget/**/*"],
+  "exclude": ["server/cloudflare/**/*"]
 }
