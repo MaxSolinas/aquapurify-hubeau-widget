@@ -1,0 +1,22 @@
+[
+  { "nom": "Paris 1er Arr.", "code_insee": "75101", "code_postal": "75001" },
+  { "nom": "Marseille 1er", "code_insee": "13201", "code_postal": "13001" },
+  { "nom": "Lyon 2e", "code_insee": "69382", "code_postal": "69002" },
+  { "nom": "Toulouse", "code_insee": "31555", "code_postal": "31000" },
+  { "nom": "Nice", "code_insee": "06088", "code_postal": "06000" },
+  { "nom": "Nantes", "code_insee": "44109", "code_postal": "44000" },
+  { "nom": "Montpellier", "code_insee": "34172", "code_postal": "34000" },
+  { "nom": "Strasbourg", "code_insee": "67482", "code_postal": "67000" },
+  { "nom": "Bordeaux", "code_insee": "33063", "code_postal": "33000" },
+  { "nom": "Lille", "code_insee": "59350", "code_postal": "59000" },
+  { "nom": "Rennes", "code_insee": "35238", "code_postal": "35000" },
+  { "nom": "Reims", "code_insee": "51454", "code_postal": "51100" },
+  { "nom": "Le Havre", "code_insee": "76351", "code_postal": "76600" },
+  { "nom": "Saint-Étienne", "code_insee": "42218", "code_postal": "42000" },
+  { "nom": "Toulon", "code_insee": "83137", "code_postal": "83000" },
+  { "nom": "Grenoble", "code_insee": "38185", "code_postal": "38000" },
+  { "nom": "Dijon", "code_insee": "21231", "code_postal": "21000" },
+  { "nom": "Angers", "code_insee": "49007", "code_postal": "49000" },
+  { "nom": "Nîmes", "code_insee": "30189", "code_postal": "30000" },
+  { "nom": "Clermont-Ferrand", "code_insee": "63113", "code_postal": "63000" }
+]
