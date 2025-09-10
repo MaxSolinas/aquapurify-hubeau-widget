@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget Hub'Eau Demo</title>
+  <link rel="stylesheet" href="../widget/ap-widget.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Démo - Widget Hub'Eau</h1>
+  <p>Ce widget permet de rechercher la qualité de l'eau potable en France via l'API Hub'Eau.</p>
+  <div id="ap-water-widget"></div>
+  <script>
+    window.APW_CONFIG = {
+      endpoint: "/api/hubeau",
+      defaultParamIds: ["1532","1340","1003"],
+      cacheTtlSec: 86400
+    };
+  </script>
+  <script src="../widget/ap-widget.js"></script>
+</body>
+</html>
