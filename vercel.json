@@ -1,0 +1,6 @@
+{
+  "functions": { "server/vercel/api/*.ts": { "runtime": "@vercel/node@3" } },
+  "routes": [
+    { "src": "/api/hubeau", "dest": "server/vercel/api/hubeau.ts" }
+  ]
+}
