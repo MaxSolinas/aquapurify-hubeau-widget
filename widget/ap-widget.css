@@ -1,0 +1,52 @@
+.apw-root {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 420px;
+  background: #fafafa;
+}
+.apw-input,
+.apw-select,
+.apw-button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.apw-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.apw-button:hover:not(:disabled) {
+  background: #0056b3;
+}
+.apw-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.apw-results {
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+.apw-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.apw-table th,
+.apw-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.apw-table th {
+  background: #f1f1f1;
+  font-weight: bold;
+}
